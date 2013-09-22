@@ -32,7 +32,7 @@ ID <FORME> COORDONNÉES COULEUR </FORME>
 
 ### ID
 
-Le ID est un champ numérique compris entre 0 et 99999 utilisé pour la correction des travaux.
+Le `ID` est un champ numérique compris entre 0 et 99999 utilisé pour la correction des travaux.
 
 ### Formes et coordonnées
 
@@ -45,6 +45,8 @@ Le champ `FORME` prend une des valeurs suivantes, associée à des `COORDONNÉES
 * `LIGNE`: `x1, y1, x2, y2`: Les coordonnées du point de départ `x1, y1`, et du point d'arrivée `x2, y2`.
 
 ### Couleurs
+
+Les valeurs possibles pour le champ `COULEUR` sont:
 
 * ROUGE
 * VERT
