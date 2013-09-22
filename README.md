@@ -57,8 +57,7 @@ Les valeurs que peut prendre le champ `COULEUR` sont:
 * `NOIR`
 * `BLANC`
 
-
-### Exemples de réponses
+### Exemple de réponse
 
 Carré de couleur rouge dont le coin supérieur gauche est au point (10,15) et le point inférieur droit au point (100,150).
 
