@@ -27,8 +27,12 @@ END
 Renvoie les spécifications d'une forme lorsque la commande `GET` est reçue:
 
 ````
-00000 <FORME> COORDONNÉES COULEUR </FORME>
+ID <FORME> COORDONNÉES COULEUR </FORME>
 ````
+
+### ID
+
+Le ID est un champ numérique compris entre 0 et 99999 utilisé pour la correction des travaux.
 
 ### Formes et coordonnées
 
