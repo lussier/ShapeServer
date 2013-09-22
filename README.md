@@ -48,14 +48,14 @@ Le champ `FORME` prend une des valeurs suivantes, associée à des `COORDONNÉES
 
 Les valeurs que peut prendre le champ `COULEUR` sont:
 
-* ROUGE
-* VERT
-* BLEU
-* JAUNE
-* ORANGE
-* GRIS
-* NOIR
-* BLANC
+* `ROUGE`
+* `VERT`
+* `BLEU`
+* `JAUNE`
+* `ORANGE`
+* `GRIS`
+* `NOIR`
+* `BLANC`
 
 
 ### Exemples de réponses
