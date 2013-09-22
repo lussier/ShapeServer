@@ -1,7 +1,7 @@
 ShapeServer
 ===========
 
-Service qui répond à deux commandes sur le port TCP 10000:
+Service qui répond à deux commandes sur le port TCP 10000.
 
 
 ## Commandes
