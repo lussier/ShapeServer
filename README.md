@@ -50,10 +50,12 @@ Le champ `FORME` prend une des valeurs suivantes, associée à des `COORDONNÉES
 * GRIS
 * NOIR
 * BLANC
-* 
+
+
 ### Exemples de réponses
 
 Carré de couleur rouge dont le coin supérieur gauche est au point (10,15) et le point inférieur droit au point (100,150).
+
 ````
 12345 <RECTANGLE> 10 15 100 150 ROUGE </RECTANGLE>
 ````
