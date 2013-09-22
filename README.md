@@ -27,12 +27,12 @@ END
 Renvoie les spécifications d'une forme lorsque la commande `GET` est reçue:
 
 ````
-00000 <FORME> x1 y1 x2 y2 COULEUR </FORME>
+00000 <FORME> COORDONNÉES COULEUR </FORME>
 ````
 
 ### Formes et coordonnées
 
-Le champ `FORME` prend une des valeurs suivantes:
+Le champ `FORME` prend une des valeurs suivantes, associée à des `COORDONNÉES`:
 
 * `CARRE`: `x1, y1, x2, y2`. Les coordonnées du point supérieur gauche `x1, y1`, et du point inférieur droit `x2, y2`.
 * `RECTANGLE`: `x1, y1, x2, y2`. Les coordonnées du point supérieur gauche `x1, y1`, et du point inférieur droit `x2, y2`.
