@@ -40,7 +40,7 @@ Le champ `FORME` prend une des valeurs suivantes, associée à des `COORDONNÉES
 * `CERCLE`: `cx, cy, r`. Les coordonnées du point central `cx, cy` et du rayon `r`.
 * `LIGNE`: `x1, y1, x2, y2`: Les coordonnées du point de départ `x1, y1`, et du point d'arrivée `x2, y2`.
 
-### Couleur
+### Couleurs
 
 * ROUGE
 * VERT
@@ -50,3 +50,12 @@ Le champ `FORME` prend une des valeurs suivantes, associée à des `COORDONNÉES
 * GRIS
 * NOIR
 * BLANC
+* 
+### Exemples de réponses
+
+Carré de couleur rouge dont le coin supérieur gauche est au point (10,15) et le point inférieur droit au point (100,150).
+````
+12345 <RECTANGLE> 10 15 100 150 ROUGE </RECTANGLE>
+````
+
+
