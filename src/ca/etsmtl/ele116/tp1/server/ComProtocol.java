@@ -28,7 +28,7 @@ public class ComProtocol {
 		}
 		else if (s.equals("GET")) {
 			String shape;
-			int[] params = new int[4];
+			int[] params = { -1, -1, -1, -1 };
 			switch (r.nextInt(5)) {
 				case 0: // CARRE
 					shape = "CARRE";
@@ -71,7 +71,7 @@ public class ComProtocol {
 			
 			out = "1 <" + shape + "> ";
 			for (int param : params)
-				if (param > 0)
+				if (param >= 0)
 					out += (param + " ");
 			out += couleurs[r.nextInt(couleurs.length)];
 			out += " </" + shape + ">";
